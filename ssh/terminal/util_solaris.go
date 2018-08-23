@@ -4,10 +4,10 @@
 
 // +build solaris
 
-package terminal // import "golang.org/x/crypto/ssh/terminal"
+package terminal // import "github.com/sunnogo/crypto/ssh/terminal"
 
 import (
-	"golang.org/x/sys/unix"
+	"github.com/sunnogo/sys/unix"
 	"io"
 	"syscall"
 )
